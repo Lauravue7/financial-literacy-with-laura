@@ -14,7 +14,3 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-[[redirects]]
-  from = "/"
-  to = "/coming-soon.html"
-  status = 200
