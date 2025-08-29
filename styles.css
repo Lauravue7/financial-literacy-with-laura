@@ -33,12 +33,6 @@ footer{border-top:1px solid #eee;padding:20px;text-align:center;color:#666}
   position: relative;
   padding: 40px 0; /* adjust height */
   text-align: left;
-  background: url("assets/logo.png") no-repeat center;
-  background-size: 300px auto;   /* adjust size of watermark */
-  background-position: center top; /* move it slightly down if needed */
-  opacity: 1;
-}
-
 .hero::before {
   content: "";
   position: absolute;
