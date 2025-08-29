@@ -12,7 +12,29 @@
     .prose h1, .prose h2 { margin-top: 24px; line-height: 1.2 }
     .prose p { margin: 12px 0; color:#444 }
     .prose ul { margin: 12px 0; padding-left: 20px }
-    blockquote { border-left: 3px solid #000; padding: 12px 16px; background: #fafafa; font-style: italic; border-radius: 8px }
+    .quote-section {
+      display: flex; 
+      gap: 20px; 
+      align-items: center; 
+      margin-top: 40px; 
+      background:#fafafa; 
+      padding:20px; 
+      border-radius:12px; 
+      border:1px solid #eaeaea;
+    }
+    .quote-section img {
+      max-width: 180px; 
+      border-radius: 12px;
+    }
+    blockquote {
+      margin: 0;
+      font-style: italic;
+      color:#333;
+    }
+    @media (max-width: 700px){
+      .quote-section { flex-direction: column; text-align: center }
+      .quote-section img { max-width: 60% }
+    }
   </style>
 </head>
 <body>
@@ -55,7 +77,6 @@
     </ul>
 
     <h2>💡 What You’ll Find Here</h2>
-    <p>This site includes:</p>
     <ul>
       <li>✨ <strong>Workshops</strong> like <em>Budget Like a Boss</em>, <em>Credit Confidence</em>, and <em>Investing 101</em></li>
       <li>❤️ <strong>Financial Literacy Family Foundation</strong> — our nonprofit bringing free workshops to schools, churches, and communities. Pending 501c.</li>
@@ -72,9 +93,12 @@
     <h2>💌 Contact</h2>
     <p>📩 <a href="mailto:FinancialLiteracyOK@gmail.com">FinancialLiteracyOK@gmail.com</a></p>
 
-    <blockquote>
-      “Knowledge turns money into freedom. My goal is to help families use money as a tool to build the future they deserve. I will meet you right where you are at and help you get to where you want to be.” – Laura Vue
-    </blockquote>
+    <div class="quote-section">
+      <img src="assets/headshot.jpg" alt="Portrait of Laura Vue">
+      <blockquote>
+        “Knowledge turns money into freedom. My goal is to help families use money as a tool to build the future they deserve. I will meet you right where you are at and help you get to where you want to be.” <br>— <strong>Laura Vue</strong>
+      </blockquote>
+    </div>
   </main>
 </body>
 </html>
