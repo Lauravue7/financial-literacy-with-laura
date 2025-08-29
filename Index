@@ -1,0 +1,60 @@
+index.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Financial Literacy with Laura — Home</title>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Logo" class="nav-logo">
+        <div>Financial Literacy with Laura<br><small>Money made simple</small></div>
+      </a>
+      <button class="menu-toggle">Menu</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html">Workshops</a></li>
+        <li><a href="foundation.html">Foundation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <img class="hero-logo" src="assets/logo.png" alt="Financial Literacy Logo">
+      <span class="kicker">Welcome</span>
+      <h1>Money, made simple — for families, students, and communities.</h1>
+      <p>Hi, I’m <strong>Laura Vue</strong>. With advanced degrees and 10+ years in finance, I turn financial concepts into clear, doable steps.</p>
+      <div class="btn-row">
+        <a class="btn fill" href="workshops.html">Explore Workshops</a>
+        <a class="btn" href="foundation.html">Our Foundation</a>
+      </div>
+      <div style="margin-top:28px; max-width:820px">
+        <img class="hero-img" src="assets/headshot.jpg" alt="Portrait of Laura Vue">
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container grid grid-3">
+      <div class="card"><h3>Budget Like a Boss</h3><p>Master your monthly plan, reduce debt, and align spending with goals.</p></div>
+      <div class="card"><h3>Credit Confidence</h3><p>Understand credit scores, clean up reports, and build strong credit habits.</p></div>
+      <div class="card"><h3>Investing 101</h3><p>Get started with simple, long-term investing tailored to real life.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© Financial Literacy with Laura • All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
