@@ -24,26 +24,42 @@ footer{border-top:1px solid #eee;padding:20px;text-align:center;color:#666}
 .nav li { margin: 0; }
 .nav a { font-size: 14px; }                   /* smaller link text */
 .brand small { display: block; font-size: 12px; line-height: 1.2; color: #666; }
-
-/* --- Slightly smaller hero/banner too --- */
-.hero { padding: 20px 0; }                    /* you can try 16px if you want it tighter */
-.hero h1 { margin-bottom: 8px; }
-/* Hero background watermark */
+/* --- Slim hero/banner --- */
 .hero {
   position: relative;
-  padding: 40px 0; /* adjust height */
+  padding: 24px 0;            /* adjust 20–32px to taste */
   text-align: left;
+}
+.hero h1 { margin-bottom: 8px; }
+
+/* Faint logo watermark behind hero text */
 .hero::before {
   content: "";
   position: absolute;
-  inset: 0;
-  background: url("assets/logo.png") no-repeat center;
-  background-size: 400px auto;   /* larger faded logo */
-  opacity: 0.05;                 /* faint watermark effect */
+  top: 60px;                  /* push below headline */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 520px;               /* watermark size */
+  height: 520px;
+  background: url("assets/logo.png") no-repeat center/contain;
+  opacity: 0.06;              /* 0.04–0.10 = lighter/darker */
+  pointer-events: none;
   z-index: 0;
 }
 
+/* Keep hero text above watermark */
 .hero .container {
   position: relative;
-  z-index: 1; /* keep text above watermark */
+  z-index: 1;
+}
+
+/* Mobile tweaks */
+@media (max-width: 700px) {
+  .hero { padding: 20px 0; }
+  .hero::before {
+    top: 40px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.05;
+  }
 }
