@@ -15,3 +15,16 @@ a{text-decoration:none;color:#111}
 .btn.fill{background:#000;color:#fff}
 .hero-img{max-width:100%;border-radius:14px;margin-top:20px}
 footer{border-top:1px solid #eee;padding:20px;text-align:center;color:#666}
+/* --- Slim nav overrides --- */
+.nav { padding: 6px 0; }                     /* was 10px */
+.nav .wrap { padding: 0 12px; gap: 16px; }    /* tighter left/right */
+.nav .brand { gap: 8px; }                     /* logo ↔ text spacing */
+.nav-logo { height: 40px; width: auto; display: block; } /* force smaller logo */
+.nav ul { display: flex; gap: 16px; margin: 0; padding: 0; list-style: none; }
+.nav li { margin: 0; }
+.nav a { font-size: 14px; }                   /* smaller link text */
+.brand small { display: block; font-size: 12px; line-height: 1.2; color: #666; }
+
+/* --- Slightly smaller hero/banner too --- */
+.hero { padding: 20px 0; }                    /* you can try 16px if you want it tighter */
+.hero h1 { margin-bottom: 8px; }
