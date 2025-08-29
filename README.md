@@ -36,4 +36,4 @@ This site includes:
 
 ---
 
-> “Knowledge turns money into freedom. My goal is to help families use money as a tool to build the future they deserve.” – Laura Vue  
+> “Knowledge turns money into freedom. My goal is to help families use money as a tool to build the future they deserve. I will meet you right where you are at and help you get to where you want to be.” – Laura Vue  
