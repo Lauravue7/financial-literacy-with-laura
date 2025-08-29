@@ -23,7 +23,7 @@ To make financial education **simple, accessible, and empowering** — so every 
 ## 💡 What You’ll Find Here  
 This site includes:  
 - ✨ **Workshops** like *Budget Like a Boss*, *Credit Confidence*, and *Investing 101*  
-- ❤️ **Financial Literacy Family Foundation** — our nonprofit bringing free workshops to schools, churches, and communities  
+- ❤️ **Financial Literacy Family Foundation** — our nonprofit bringing free workshops to schools, churches, and communities. Pending 501c.  
 - 📚 Practical resources, tools, and guides designed to turn money stress into money strength  
 
 ## 🚀 Get Involved  
