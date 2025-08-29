@@ -1,9 +1,8 @@
-# financial-literacy-with-laura
-Empowering families &amp; communities with simple, practical financial education for lasting freedom. Breaking cycles, building confidence, and creating generational wealth through financial literacy. Making money simple &amp; accessible so every family has the tools to build security and legacy.
+
 # Financial Literacy with Laura  
 
 🌟 **Money, made simple.**  
-I believe financial literacy is more than numbers — it’s about peace of mind, opportunities, and building a legacy.  
+Empowering families &amp; communities with simple, practical financial education for lasting freedom. Breaking cycles, building confidence, and creating generational wealth through financial literacy. Making money simple &amp; accessible so every family has the tools to build security and legacy.
 
 ## 👋 About Me  
 My name is **Laura Vue**, and I’ve dedicated my career to helping families, students, and communities feel confident with money.  
