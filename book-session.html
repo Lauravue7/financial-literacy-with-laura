@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Session – Financial Literacy with Laura</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Logo" class="nav-logo">
+        <div>Financial Literacy with Laura<br>
+          <small>Money made simple. A safe space to learn, grow and succeed.</small>
+        </div>
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html">Workshops</a></li>
+        <li><a href="foundation.html">Foundation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <h1>Book a 1:1 Financial Session</h1>
+      <p>Fill out the form below and I’ll get back to you with available times.</p>
+    </div>
+  </header>
+
+  <!-- Form -->
+  <section class="section">
+    <div class="container">
+      <form name="book-session" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name:<br>
+            <input type="text" name="name" required>
+          </label>
+        </p>
+        <p>
+          <label>Your Email:<br>
+            <input type="email" name="email" required>
+          </label>
+        </p>
+        <p>
+          <label>Preferred Date:<br>
+            <input type="date" name="date">
+          </label>
+        </p>
+        <p>
+          <label>Message:<br>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit" class="btn fill">Submit Request</button>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© Financial Literacy with Laura • All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
